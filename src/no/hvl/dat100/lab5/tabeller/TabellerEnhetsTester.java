@@ -24,6 +24,7 @@ class TabellerEnhetsTester {
 		assertEquals("[1,4,6]", Tabeller.tilStreng(tabell1));
 		assertEquals("[1]", Tabeller.tilStreng(tabell2));
 		assertEquals("[]", Tabeller.tilStreng(tabell3));
+
 	}
 	
 	@Test
