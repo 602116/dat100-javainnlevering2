@@ -4,9 +4,7 @@ import java.util.Iterator;
 
 public class Tabeller {
 
-	//public static void main(String[] args) {
-	////	System.out.println(tilStreng(tabell2));
-	//}
+
 
 	// a)
 	public static void skrivUt(int[] tabell) {
@@ -19,12 +17,14 @@ public class Tabeller {
 		}
 		System.out.println();
 
-		// throw new UnsupportedOperationException("skrivUt ikke implementert");
 
 	}
 
 	// b)
 	public static String tilStreng(int[] tabell) {
+
+
+
 		if ( tabell == null)
 			return "null";
 		StringBuilder tabellS = new StringBuilder("[");
@@ -52,6 +52,10 @@ int sum=0;
 //		for (int i = 0; i < tabell.length; i++) {
 //
 //			sum+=tabell[i];
+//		}
+//		for (int j : tabell) {
+//
+//			sum += tabell[j];
 //		}
 
 		int i = 0;
